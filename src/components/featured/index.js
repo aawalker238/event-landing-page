@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
 import Countdown from './Countdown';
+import { eventName } from '../../utils/constants';
 
 const Featured = () => {
   return (
@@ -8,9 +9,9 @@ const Featured = () => {
 
       <Carousel />
       
-      <div className="artist_name">
+      <div className="event_name">
         <div className="wrapper">
-          Ariana Grande
+          { eventName } {new Date().getFullYear()}
         </div>
       </div>
 

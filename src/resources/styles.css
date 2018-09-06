@@ -85,9 +85,9 @@ footer .footer_copyright {
     background-size: cover !important;
 }
 
-.artist_name {
+.event_name {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 400px;
     height: 160px;
@@ -96,7 +96,7 @@ footer .footer_copyright {
     border: 2px solid white;
 }
 
-.artist_name .wrapper {
+.event_name .wrapper {
     border: 2px solid white;
     height: 121px;
     margin: 6px;
@@ -357,4 +357,8 @@ footer .footer_copyright {
     font-size: 29px;
     padding: 15px 20px;
     text-align: center;
+}
+
+.location_iframe {
+    margin-bottom: -4px;
 }
